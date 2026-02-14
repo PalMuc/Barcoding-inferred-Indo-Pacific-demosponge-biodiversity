@@ -44,5 +44,5 @@ Our data corroborated high endemism in MPs (up to 84.1% endemic MOTUs). Faunal o
 Our data corroborate case studies on sponges that generally reject the presence of cosmopolitan or otherwise widespread sponge species, instead revealing high levels of regional endemism. This is consistent with similar observations and hypotheses in other marine invertebrates, and highlights the need for close regional monitoring to identify biodiversity changes. Connectivity among Indo-Pacific MPs differ for demosponges in many aspects from that of other marine taxa, hypothetically due to their shorter pelagic larval phase. 
 
 # R scripts for biodiversity analysis
-The biodiversity analysis is divided into four R scripts Versions of packages can be found in SessionInfo. The first script (1_DB-creation.R) generates a database from the barcodes from the different Indo-Pacific provinces. It uploads province by province,
+The biodiversity analysis is divided into four R scripts Versions of packages can be found in SessionInfo. The first script [1_DB-creation.R](./1_DB-creation.R) generates a database from the barcodes from the different Indo-Pacific provinces. It uploads province by province,
 
