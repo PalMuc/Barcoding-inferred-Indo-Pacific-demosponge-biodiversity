@@ -47,7 +47,7 @@ Our data corroborate case studies on sponges that generally reject the presence 
 # R scripts for biodiversity analysis
 The biodiversity analysis is divided into four R scripts. Versions of packages can be found in [Sessioninfo.txt](./Sessioninfo.txt). 
 
-DISCLAIMER: It is one of my forst R codings and might be less elegant than possible and contained several extra strps for me to verify that the script does whyt it should have. Feel free to use it at your own risk (without warranty), but with citation of this publication.
+DISCLAIMER: It was one of my first R codings and might be far less elegant than possible. It containes several extra steps and coments for me to verify that the script does what it should have. Feel free to use it at your own risk (without warranty), but with citation of this publication.
 
 The first script [1_DB-creation.R](./1_DB-creation.R) generates a database from the barcodes from the different Indo-Pacific provinces. It uploads province by province. 
 
