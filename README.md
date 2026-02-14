@@ -55,4 +55,4 @@ The second script [2_Alignment-creation.R](./2_Alignment-creation.R) creates the
 
 The third script [3_MOTU-clustering.R](./3_MOTU-clustering.R) will cluster the sequences to MOTUs based on a threshold you specify upfront.
 
-The fourth script [4_Biodiversity-analyses.R](.4_Biodiversity-analyses.R) will provide tabular output of a wide range of statistics of our data set and generate several biodiversity analyses based on Jaccard, Sörenson and other indices, with and without singletons. Output will also comprise heatmaps.
+The fourth script [4_Biodiversity-analyses.R](./4_Biodiversity-analyses.R) will provide tabular output of a wide range of statistics of our data set and generate several biodiversity analyses based on Jaccard, Sörenson and other indices, with and without singletons. Output will also comprise heatmaps.
