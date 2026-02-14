@@ -25,6 +25,7 @@ Dirk Erpenbeck <sup>1,2,*</sup>, Adrian Galitz<sup>1</sup>, Michael L. Berumen<s
 
 <sup>*</sup>corresponding author: erpenbeck@LMU.de
 
+Journal of Biogeography (2026) in press
 
 ## Abstract
 
@@ -46,7 +47,12 @@ Our data corroborate case studies on sponges that generally reject the presence 
 # R scripts for biodiversity analysis
 The biodiversity analysis is divided into four R scripts. Versions of packages can be found in [Sessioninfo.txt](./Sessioninfo.txt). 
 
-DISCLAIMER: It is one of my forst R codings and might be less elegant than possible and contained several extra strps for me to verify that the script does whyt it should have. Feel free to use it at your own risk (without warranty), but with citatio of this publication.
+DISCLAIMER: It is one of my forst R codings and might be less elegant than possible and contained several extra strps for me to verify that the script does whyt it should have. Feel free to use it at your own risk (without warranty), but with citation of this publication.
 
-The first script [1_DB-creation.R](./1_DB-creation.R) generates a database from the barcodes from the different Indo-Pacific provinces. It uploads province by province.
+The first script [1_DB-creation.R](./1_DB-creation.R) generates a database from the barcodes from the different Indo-Pacific provinces. It uploads province by province. 
 
+The second script [2_Alignment-creation.R](./2_Alignment-creation.R) creates the alignment vecessary for the clustering analysis. Make sure that the minimum lenght of your sequences is set. Actually two alignment rounds are done, after the first the alignment can be checked in your browser (important to have confidence in your data) and the second will generate the input for the following steps.
+
+The third script [3_MOTU-clustering.R](./3_MOTU-clustering.R) will cluster the sequences to MOTUs based on a threshold you specify upfront.
+
+The fourth script [4_Biodiversity-analyses.R](.4_Biodiversity-analyses.R) will provide tabular output of a wide range of statistics of our data set and generate several biodiversity analyses based on Jaccard, Sörenson and other indices, with and without singletons. Output will also comprise heatmaps.
